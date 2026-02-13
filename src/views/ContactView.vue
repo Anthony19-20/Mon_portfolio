@@ -1,5 +1,5 @@
 <script setup>
-import { ref } from 'vue'
+import { ref } from 'vue';
 
 const email = ref('');
 const object = ref('');
@@ -11,9 +11,9 @@ const sendForm = () => {
     console.log("Message:", message.value);
 
     // Changer le code pour que le mail qui envoi soit le mail de l'utilisateur et pas le mien
-    /*const mailtoLink = `mailto:barellitony13@gmail.com?subject=${encodeURIComponent(object.value)}&body=${encodeURIComponent(message.value)}`
-    window.location.href = mailtoLink*/
-}
+    // const mailtoLink = `mailto:barellitony13@gmail.com?subject=${encodeURIComponent(object.value)}&body=${encodeURIComponent(message.value)}`
+    // window.location.href = mailtoLink
+};
 </script>
 
 <template>

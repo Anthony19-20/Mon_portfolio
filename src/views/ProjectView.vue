@@ -4,36 +4,70 @@
     Projet 2 : Cooking
   -->
   <h1 class="h1-projet">Mes projets</h1>
-  <section class="project-ciel">
+  <section class="section-projet">
     <h2 class="h2-projet">Projet 1 : Borne d'orientation</h2>
     <h3 class="h3-projet">Projet de fin d'études - BTS CIEL</h3>
-    <p class="para-ciel">
-      Dans le cadre de l'obtention de mon <span class="span-ciel">BTS CIEL (Cybersécurité, Informatique et réseaux,
+    <p class="para-projet">
+      Dans le cadre de l'obtention de mon <span class="span-projet">BTS CIEL (Cybersécurité, Informatique et réseaux,
         Électronique)</span>,
       j'ai eu l'opportunité de concevoir et réaliser un projet technique d'envergure. Cette expérience a constitué
       le point culminant de ma deuxième année de formation, me permettant de mettre en pratique l'ensemble des
       compétences acquises au cours de mon cursus.
     </p>
 
-    <p class="para-ciel">
-      Réalisé en étroite collaboration avec <span class="span-ciel">trois camarades de classe</span>, ce projet a été
+    <p class="para-projet">
+      Réalisé en étroite collaboration avec <span class="span-projet">trois camarades de classe</span>, ce projet a été
       une véritable
       immersion dans le travail d'équipe en mode Agile. Nous avons dû nous répartir les tâches, coordonner nos
       développements et mutualiser nos compétences pour répondre à un cahier des charges exigeant.
     </p>
 
-    <p class="para-ciel">
-      Ce défi technique s'est étalé sur une période de cinq mois, de <span class="span-ciel">janvier 2025 à mai
+    <p class="para-projet">
+      Ce défi technique s'est étalé sur une période de cinq mois, de <span class="span-projet">janvier 2025 à mai
         2025</span>.
       Durant cette période, nous avons suivi un cycle de développement complet : de l'analyse des besoins à la
       conception technique, jusqu'aux phases de tests et de déploiement final.
     </p>
 
-    <p class="para-ciel">
+    <p class="para-projet">
       <em>Note : Ce projet m'a permis de renforcer mon autonomie ainsi que ma capacité à communiquer efficacement
         au sein d'un groupe pour atteindre des objectifs communs dans les délais impartis.</em>
     </p>
     <a href="https://github.com/Alex-Nguyen39/Projet_Borne_Orientation_E6_TEMA">Voir le projet</a>
+  </section>
+
+  <section class="section-projet">
+    <h2 class="h2-projet">Projet 2 : Cooking</h2>
+    <h3>Application de Recettes Culinaire – Projet POEI Front-End</h3>
+
+    <p class="para-projet">
+      Dans le cadre de ma formation <span class="span-projet">POEI (Préparation Opérationnelle à l'Emploi Individuelle)
+        spécialisée en
+        Front-End</span>,
+      j'ai co-développé une application web dynamique dédiée à l'univers de la cuisine. Ce projet avait pour objectif de
+      créer une interface utilisateur fluide, intuitive et responsive, permettant aux utilisateurs de rechercher et
+      de consulter des recettes de manière interactive.
+    </p>
+
+    <p class="para-projet">
+      Ce travail a été mené en équipe avec <span class="span-projet">deux collaborateurs de formation</span>. Nous avons
+      adopté une
+      organisation de travail collaborative, utilisant des outils de versioning (Git/GitHub) pour fusionner nos
+      développements et garantir la cohérence visuelle et technique de l'application.
+    </p>
+
+    <p class="para-projet">
+      Le projet s'est déroulé sur une période intensive de deux mois, de <span class="span-projet">décembre 2025 à
+        janvier 2026</span>.
+      Ce calendrier serré nous a imposé une gestion de projet rigoureuse, nous apprenant à prioriser les fonctionnalités
+      essentielles (MVP) et à respecter des délais de livraison stricts, fidèles aux exigences du monde professionnel.
+    </p>
+
+    <p class="para-projet">
+      <em>Compétences clés mobilisées : Intégration de composants, gestion d'états dynamiques, travail en équipe agile
+        et respect des maquettes UI/UX.</em>
+    </p>
+    <a href="https://github.com/Chouppa/CooKing">Voir le projet</a>
   </section>
 
   <footer>
@@ -97,22 +131,22 @@
 <style>
 @import '../assets/style.css';
 
-.para-ciel,
+.para-projet,
 .h1-projet,
 .h2-projet,
 .h3-projet {
   margin-bottom: 1em;
 }
 
-.para-ciel {
+.para-projet {
   max-width: 75%;
 }
 
-.project-ciel {
+.section-projet {
   margin-bottom: 2em;
 }
 
-.span-ciel {
+.span-projet {
   font-weight: bold;
   color: #686868;
 }

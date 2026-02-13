@@ -5,9 +5,10 @@ import TheWelcome from '../components/TheWelcome.vue'
 <template>
   <main>
     <h1>Accueil</h1>
+    <h2 class="h2-home">Bonjour, je suis <span class="span-home">Tony Barelli</span></h2>
+    <h3 class="h3-home">Développeur Web Full Stack Junior</h3>
     <TheWelcome />
   </main>
-
 
   <footer>
     <hr />
@@ -69,4 +70,19 @@ import TheWelcome from '../components/TheWelcome.vue'
 
 <style>
 @import '../assets/style.css';
+
+.h2-home,
+.h3-home {
+  text-align: center;
+}
+
+.span-home {
+  background: linear-gradient(90deg, #42b883, #35495e);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  font-weight: bold;
+  font-size: 2rem;
+}
 </style>
