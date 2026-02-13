@@ -1,0 +1,68 @@
+body {
+    color: #ffffffc7;
+}
+
+footer {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.Instagram,
+.Facebook,
+.YouTube,
+.Twitter,
+.LinkedIn,
+.GitHub,
+.TikTok {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin: 30px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #abaaaa;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.Instagram:hover {
+    transform: scale(1.2);
+}
+
+.Instagram:hover svg {
+    fill: url(#instagram-gradient);
+}
+
+.Facebook:hover {
+    color: #395499;
+    transform: scale(1.2);
+}
+
+.YouTube:hover {
+    color: #f70000;
+    transform: scale(1.2);
+}
+
+.Twitter:hover {
+    color: #000000;
+    transform: scale(1.2);
+}
+
+.LinkedIn:hover {
+    color: #0b64bd;
+    transform: scale(1.2);
+}
+
+.GitHub:hover {
+    color: #000000;
+    transform: scale(1.2);
+}
+
+.TikTok:hover {
+    transform: scale(1.2);
+    color: #000000;
+}
+
+.TikTok:hover svg {
+    filter: drop-shadow(-2px -1px 0px #25F4EE) drop-shadow(2px 1px 0px #FE2C55);
+}
