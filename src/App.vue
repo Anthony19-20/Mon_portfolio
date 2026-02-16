@@ -2,7 +2,12 @@
 import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
 </script>
-
+<!--
+  Idées :
+  CV
+  Photo de ma tête
+  Photos projets (slide ?)
+ -->
 <template>
   <header>
     <div class="wrapper">
