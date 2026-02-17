@@ -1,74 +1,71 @@
 <template>
   <h1 class="h1-projet">Mes projets</h1>
-  <main class="main-projet">
-    <section class="section-projet">
-      <h2 class="h2-projet">Projet 1 : Borne d'orientation</h2>
-      <h3 class="h3-projet">Projet de fin d'études - BTS CIEL</h3>
-      <p class="para-projet">
-        Dans le cadre de l'obtention de mon <span>BTS CIEL (Cybersécurité, Informatique et réseaux,
-          Électronique)</span>,
-        j'ai eu l'opportunité de concevoir et réaliser un projet technique d'envergure. Cette expérience a constitué
-        le point culminant de ma deuxième année de formation, me permettant de mettre en pratique l'ensemble des
-        compétences acquises au cours de mon cursus.
-      </p>
+  <section class="section-projet">
+    <h2 class="h2-projet">Projet 1 : Borne d'orientation</h2>
+    <h3 class="h3-projet">Projet de fin d'études - BTS CIEL</h3>
+    <p class="para-projet">
+      Dans le cadre de l'obtention de mon <span>BTS CIEL (Cybersécurité, Informatique et réseaux,
+        Électronique)</span>,
+      j'ai eu l'opportunité de concevoir et réaliser un projet technique d'envergure. Cette expérience a constitué
+      le point culminant de ma deuxième année de formation, me permettant de mettre en pratique l'ensemble des
+      compétences acquises au cours de mon cursus.
+    </p>
 
-      <p class="para-projet">
-        Réalisé en étroite collaboration avec <span>trois camarades de classe</span>, ce projet a été
-        une véritable
-        immersion dans le travail d'équipe en mode Agile. Nous avons dû nous répartir les tâches, coordonner nos
-        développements et mutualiser nos compétences pour répondre à un cahier des charges exigeant.
-      </p>
+    <p class="para-projet">
+      Réalisé en étroite collaboration avec <span>trois camarades de classe</span>, ce projet a été
+      une véritable
+      immersion dans le travail d'équipe en mode Agile. Nous avons dû nous répartir les tâches, coordonner nos
+      développements et mutualiser nos compétences pour répondre à un cahier des charges exigeant.
+    </p>
 
-      <p class="para-projet">
-        Ce défi technique s'est étalé sur une période de cinq mois, de <span>janvier 2025 à mai
-          2025</span>.
-        Durant cette période, nous avons suivi un cycle de développement complet : de l'analyse des besoins à la
-        conception technique, jusqu'aux phases de tests et de déploiement final.
-      </p>
+    <p class="para-projet">
+      Ce défi technique s'est étalé sur une période de cinq mois, de <span>janvier 2025 à mai
+        2025</span>.
+      Durant cette période, nous avons suivi un cycle de développement complet : de l'analyse des besoins à la
+      conception technique, jusqu'aux phases de tests et de déploiement final.
+    </p>
 
-      <p class="para-projet">
-        <em>Note : Ce projet m'a permis de renforcer mon autonomie ainsi que ma capacité à communiquer efficacement
-          au sein d'un groupe pour atteindre des objectifs communs dans les délais impartis.</em>
-      </p>
-      <a href="https://github.com/Alex-Nguyen39/Projet_Borne_Orientation_E6_TEMA">Voir le projet</a>
-    </section>
-    <section>Images a affiché ici</section>
-    <section class="section-projet">
-      <h2 class="h2-projet">Projet 2 : Cooking</h2>
-      <h3>Application de Recettes Culinaire – Projet POEI Front-End</h3>
+    <p class="para-projet">
+      <em>Note : Ce projet m'a permis de renforcer mon autonomie ainsi que ma capacité à communiquer efficacement
+        au sein d'un groupe pour atteindre des objectifs communs dans les délais impartis.</em>
+    </p>
+    <a href="https://github.com/Alex-Nguyen39/Projet_Borne_Orientation_E6_TEMA">Voir le projet</a>
+  </section>
+  <section class="section-projet">
+    <h2 class="h2-projet">Projet 2 : Cooking</h2>
+    <h3>Application de Recettes Culinaire – Projet POEI Front-End</h3>
 
-      <p class="para-projet">
-        Dans le cadre de ma formation <span>POEI (Préparation Opérationnelle à l'Emploi Individuelle)
-          spécialisée en
-          Front-End</span>,
-        j'ai co-développé une application web dynamique dédiée à l'univers de la cuisine. Ce projet avait pour objectif
-        de
-        créer une interface utilisateur fluide, intuitive et responsive, permettant aux utilisateurs de rechercher et
-        de consulter des recettes de manière interactive.
-      </p>
+    <p class="para-projet">
+      Dans le cadre de ma formation <span>POEI (Préparation Opérationnelle à l'Emploi Individuelle)
+        spécialisée en
+        Front-End</span>,
+      j'ai co-développé une application web dynamique dédiée à l'univers de la cuisine. Ce projet avait pour objectif
+      de
+      créer une interface utilisateur fluide, intuitive et responsive, permettant aux utilisateurs de rechercher et
+      de consulter des recettes de manière interactive.
+    </p>
 
-      <p class="para-projet">
-        Ce travail a été mené en équipe avec <span>deux collaborateurs de formation</span>. Nous avons
-        adopté une
-        organisation de travail collaborative, utilisant des outils de versioning (Git/GitHub) pour fusionner nos
-        développements et garantir la cohérence visuelle et technique de l'application.
-      </p>
+    <p class="para-projet">
+      Ce travail a été mené en équipe avec <span>deux collaborateurs de formation</span>. Nous avons
+      adopté une
+      organisation de travail collaborative, utilisant des outils de versioning (Git/GitHub) pour fusionner nos
+      développements et garantir la cohérence visuelle et technique de l'application.
+    </p>
 
-      <p class="para-projet">
-        Le projet s'est déroulé sur une période intensive de deux mois, de <span>décembre 2025 à
-          janvier 2026</span>.
-        Ce calendrier serré nous a imposé une gestion de projet rigoureuse, nous apprenant à prioriser les
-        fonctionnalités
-        essentielles (MVP) et à respecter des délais de livraison stricts, fidèles aux exigences du monde professionnel.
-      </p>
+    <p class="para-projet">
+      Le projet s'est déroulé sur une période intensive de deux mois, de <span>décembre 2025 à
+        janvier 2026</span>.
+      Ce calendrier serré nous a imposé une gestion de projet rigoureuse, nous apprenant à prioriser les
+      fonctionnalités
+      essentielles (MVP) et à respecter des délais de livraison stricts, fidèles aux exigences du monde professionnel.
+    </p>
 
-      <p class="para-projet">
-        <em>Compétences clés mobilisées : Intégration de composants, gestion d'états dynamiques, travail en équipe agile
-          et respect des maquettes UI/UX.</em>
-      </p>
-      <a href="https://github.com/Chouppa/CooKing">Voir le projet</a>
-    </section>
-  </main>
+    <p class="para-projet">
+      <em>Compétences clés mobilisées : Intégration de composants, gestion d'états dynamiques, travail en équipe agile
+        et respect des maquettes UI/UX.</em>
+    </p>
+    <a href="https://github.com/Chouppa/CooKing">Voir le projet</a>
+  </section>
 
   <footer>
     <hr />
@@ -141,8 +138,6 @@
 .para-projet {
   margin-bottom: 1rem;
 }
-
-.main-projet {}
 
 .section-projet {
   margin-bottom: 2rem;

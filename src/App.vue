@@ -7,7 +7,7 @@ import HelloWorld from './components/HelloWorld.vue'
   CV - Lettre de motivation (PDF ? Lien externe ?)
   Photo de ma tête
   Photos projets (Slide ? Défilement ?)
- -->
+-->
 <template>
   <header>
     <div class="wrapper">
@@ -15,6 +15,7 @@ import HelloWorld from './components/HelloWorld.vue'
 
       <nav>
         <RouterLink to="/">Accueil</RouterLink>
+        <RouterLink to="/CV_Letter">CV & Lettre de Motivation</RouterLink>
         <RouterLink to="/projects">Projets</RouterLink>
         <RouterLink to="/contact">Contact</RouterLink>
       </nav>
