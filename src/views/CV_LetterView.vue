@@ -12,6 +12,6 @@
 <style>
 .h1 {
     text-align: center;
-    margin: 2rem;
+    margin: 1rem;
 }
 </style>

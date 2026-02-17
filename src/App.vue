@@ -4,14 +4,15 @@ import HelloWorld from './components/HelloWorld.vue'
 </script>
 <!--
   Idées :
-  CV - Lettre de motivation (PDF ? Lien externe ?)
-  Photo de ma tête
   Photos projets (Slide ? Défilement ?)
 -->
 <template>
   <header>
     <div class="wrapper">
-      <HelloWorld msg="Bienvenue sur mon portfolio" />
+      <div class="photo">
+        <HelloWorld msg="Bienvenue sur mon portfolio" />
+        <img src="./assets/Tête_Tony_Barelli.jpg" alt="Tête de Tony Barelli" class="img_moi">
+      </div>
 
       <nav>
         <RouterLink to="/">Accueil</RouterLink>
@@ -54,5 +55,20 @@ nav a {
 
 nav a:first-of-type {
   border: 0;
+}
+
+.photo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.img_moi {
+  width: 10%;
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
+  object-fit: cover;
 }
 </style>
