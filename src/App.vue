@@ -5,6 +5,7 @@ import HelloWorld from './components/HelloWorld.vue'
 <!--
   Idées :
   Photos projets (Slide ? Défilement ?)
+  Faire l'envoi des mails et testé (Contact.vue)
 -->
 <template>
   <header>
@@ -70,5 +71,12 @@ nav a:first-of-type {
   aspect-ratio: 1 / 1;
   border-radius: 50%;
   object-fit: cover;
+  transition: transform 0.3s ease-in-out;
+}
+
+.img_moi:hover {
+  transform: scale(2.5) translate(-10px, 20px);
+  box-shadow: 0 10px 20px #42b883;
+  z-index: 10;
 }
 </style>
