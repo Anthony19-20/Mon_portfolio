@@ -31,6 +31,33 @@
     </p>
     <a href="https://github.com/Alex-Nguyen39/Projet_Borne_Orientation_E6_TEMA">Voir le projet</a>
   </section>
+
+  <div class="gallerie">
+    <div class="container-scroll">
+      <div class="picture"><img src="../assets/media/image/Capture d'écran 2026-01-19 120744.png"
+          alt="Interface utilisateur avec barre de navigation et barre de recherche" /></div>
+      <div class="picture"><img src="../assets/media/image/Capture d'écran 2026-02-06 093427.png"
+          alt="Capture d'écran du projet Borne d'orientation - Fonctionnalité de recherche" /></div>
+      <div class="picture"><img src="../assets/media/image/Capture d'écran 2026-02-10 152601.png"
+          alt="Capture d'écran du projet Borne d'orientation - Détails de localisation" /></div>
+      <div class="picture"><img src="../assets/media/image/Capture d'écran 2026-02-17 172118.png"
+          alt="Capture d'écran du projet Borne d'orientation - Carte interactive" /></div>
+      <div class="picture"><img src="../assets/media/image/Capture d'écran 2026-02-10 152611.png"
+          alt="Capture d'écran du projet Borne d'orientation" /></div>
+
+      <div class="picture"><img src="../assets/media/image/Capture d'écran 2026-01-19 120744.png"
+          alt="Interface utilisateur avec barre de navigation et barre de recherche" /></div>
+      <div class="picture"><img src="../assets/media/image/Capture d'écran 2026-02-06 093427.png"
+          alt="Capture d'écran du projet Borne d'orientation - Fonctionnalité de recherche" /></div>
+      <div class="picture"><img src="../assets/media/image/Capture d'écran 2026-02-10 152601.png"
+          alt="Capture d'écran du projet Borne d'orientation - Détails de localisation" /></div>
+      <div class="picture"><img src="../assets/media/image/Capture d'écran 2026-02-17 172118.png"
+          alt="Capture d'écran du projet Borne d'orientation - Carte interactive" /></div>
+      <div class="picture"><img src="../assets/media/image/Capture d'écran 2026-02-10 152611.png"
+          alt="Capture d'écran du projet Borne d'orientation" /></div>
+    </div>
+  </div>
+
   <section class="section-projet">
     <h2 class="h2-projet">Projet 2 : Cooking</h2>
     <h3>Application de Recettes Culinaire – Projet POEI Front-End</h3>
@@ -141,5 +168,43 @@
 
 .section-projet {
   margin-bottom: 2rem;
+}
+
+.gallerie {
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+  padding: 20px 0;
+  mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+}
+
+.container-scroll {
+  display: flex;
+  gap: 20px;
+  animation: scroll-auto 40s linear infinite;
+  width: max-content;
+}
+
+@keyframes scroll-auto {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.picture img {
+  width: 300px;
+  height: 300px;
+  object-fit: contain;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px #00000033;
+  flex-shrink: 0;
+}
+
+.gallerie:hover .container-scroll {
+  animation-play-state: paused;
 }
 </style>
