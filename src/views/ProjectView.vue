@@ -126,7 +126,7 @@
 </template>
 
 <style>
-@import '../assets/style.css';
+@import '../assets/style/style.css';
 
 .para-projet,
 .h1-projet,

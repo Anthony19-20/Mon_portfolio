@@ -69,7 +69,7 @@ import TheWelcome from '../components/TheWelcome.vue'
 </template>
 
 <style>
-@import '../assets/style.css';
+@import '../assets/style/style.css';
 
 .h2-home,
 .h3-home {

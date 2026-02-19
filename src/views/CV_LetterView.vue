@@ -10,6 +10,8 @@
 </template>
 
 <style>
+@import '../assets/style/style.css';
+
 .h1 {
     text-align: center;
     margin: 1rem;

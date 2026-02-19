@@ -12,7 +12,7 @@ import HelloWorld from './components/HelloWorld.vue'
     <div class="wrapper">
       <div class="photo">
         <HelloWorld msg="Bienvenue sur mon portfolio" />
-        <img src="./assets/Tête_Tony_Barelli.jpg" alt="Tête de Tony Barelli" class="img_moi">
+        <img src="./assets/media/image/Tête_Tony_Barelli.jpg" alt="Tête de Tony Barelli" class="img_moi">
       </div>
 
       <nav>
