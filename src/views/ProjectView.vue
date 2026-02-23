@@ -94,6 +94,18 @@
     <a href="https://github.com/Chouppa/CooKing">Voir le projet</a>
   </section>
 
+  <div class="gallerie">
+    <div class="container-scroll">
+      <div class="picture"><img src="../assets/media/image/Cooking/Accueil.png" alt="Page accueil du projet" /></div>
+      <div class="picture"><img src="../assets/media/image/Cooking/Recherche.png"
+          alt="Démonstration recherche de recettes culinaires" /></div>
+      <div class="picture"><img src="../assets/media/image/Cooking/Categories.png"
+          alt="Page categories de recettes culinaires" /></div>
+      <div class="picture"><img src="../assets/media/image/Cooking/Favories.png" alt="Page favories du projet" /></div>
+      <div class="picture"><img src="../assets/media/image/Cooking/About_Us.png" alt="Page à propos du projet" /></div>
+    </div>
+  </div>
+
   <footer>
     <hr />
     <svg width="0" height="0" style="position:absolute;">
@@ -181,7 +193,7 @@
 .container-scroll {
   display: flex;
   gap: 20px;
-  animation: scroll-auto 40s linear infinite;
+  animation: scroll-auto 50s linear infinite;
   width: max-content;
 }
 

@@ -1,0 +1,3 @@
+Recherche par catégorie
+Catégorie à afficher
+Mettre en favori
