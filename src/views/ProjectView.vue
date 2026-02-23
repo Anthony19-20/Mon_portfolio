@@ -72,6 +72,14 @@
     </div>
   </div>
 
+  <div class="liste">
+    <p>Certaines des fonctionnalités ne sont pas affichés dans le défilement d'image. En voici la liste :</p>
+    <ul>
+      <li>L'envoi de mail</li>
+      <li>L'envoi de plaquette</li>
+    </ul>
+  </div>
+
   <section class="section-projet">
     <h2 class="h2-projet">Projet 2 : Cooking</h2>
     <h3>Application de Recettes Culinaire – Projet POEI Front-End</h3>
@@ -137,7 +145,7 @@
     </div>
   </div>
 
-  <div>
+  <div class="liste">
     <p>Des ajouts futurs seront mis en place au fil du temps. En voici la liste :</p>
     <ul>
       <li>Recherche avancées</li>
@@ -266,5 +274,10 @@
 .gallerie:hover .container-scroll-bts,
 .gallerie:hover .container-scroll-cooking {
   animation-play-state: paused;
+}
+
+.liste {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
 }
 </style>
