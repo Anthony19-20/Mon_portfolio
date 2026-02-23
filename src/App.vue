@@ -4,7 +4,6 @@ import HelloWorld from './components/HelloWorld.vue'
 </script>
 <!--
   Idées :
-  Photos projets (Slide ? Défilement ?)
   Faire l'envoi des mails et testé (Contact.vue)
 -->
 <template>

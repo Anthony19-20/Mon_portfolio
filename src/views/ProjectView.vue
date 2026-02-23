@@ -33,28 +33,42 @@
   </section>
 
   <div class="gallerie">
-    <div class="container-scroll">
-      <div class="picture"><img src="../assets/media/image/Capture d'écran 2026-01-19 120744.png"
-          alt="Interface utilisateur avec barre de navigation et barre de recherche" /></div>
-      <div class="picture"><img src="../assets/media/image/Capture d'écran 2026-02-06 093427.png"
-          alt="Capture d'écran du projet Borne d'orientation - Fonctionnalité de recherche" /></div>
-      <div class="picture"><img src="../assets/media/image/Capture d'écran 2026-02-10 152601.png"
-          alt="Capture d'écran du projet Borne d'orientation - Détails de localisation" /></div>
-      <div class="picture"><img src="../assets/media/image/Capture d'écran 2026-02-17 172118.png"
-          alt="Capture d'écran du projet Borne d'orientation - Carte interactive" /></div>
-      <div class="picture"><img src="../assets/media/image/Capture d'écran 2026-02-10 152611.png"
-          alt="Capture d'écran du projet Borne d'orientation" /></div>
+    <div class="container-scroll-bts">
+      <div class="picture"><img src="../assets/media/image/Borne_Orientation/Accueil.png"
+          alt="Page d'accueil de la borne d'orientation" /></div>
+      <div class="picture"><img src="../assets/media/image/Borne_Orientation/BTS.png"
+          alt="Page affichant les différents BTS" /></div>
+      <div class="picture"><img src="../assets/media/image/Borne_Orientation/Contact_BTS.png"
+          alt="Page de contact des différents BTS et les moyens de contact" /></div>
+      <div class="picture"><img src="../assets/media/image/Borne_Orientation/QR_Code.png"
+          alt="QR-Code menant au BTS choisi" /></div>
+      <div class="picture"><img src="../assets/media/image/Borne_Orientation/Chemin.png"
+          alt="Page de cheminement de la borne d'orientation" /></div>
+      <div class="picture"><img src="../assets/media/image/Borne_Orientation/Fin_Chemin.png"
+          alt="Page de fin de cheminement de la borne d'orientation" /></div>
+      <div class="picture"><img src="../assets/media/image/Borne_Orientation/Contact.png"
+          alt="Page de contact de la borne d'orientation" /></div>
+      <div class="picture"><img src="../assets/media/image/Borne_Orientation/Merci.png"
+          alt="Page de remerciement de la borne d'orientation" /></div>
+    </div>
 
-      <div class="picture"><img src="../assets/media/image/Capture d'écran 2026-01-19 120744.png"
-          alt="Interface utilisateur avec barre de navigation et barre de recherche" /></div>
-      <div class="picture"><img src="../assets/media/image/Capture d'écran 2026-02-06 093427.png"
-          alt="Capture d'écran du projet Borne d'orientation - Fonctionnalité de recherche" /></div>
-      <div class="picture"><img src="../assets/media/image/Capture d'écran 2026-02-10 152601.png"
-          alt="Capture d'écran du projet Borne d'orientation - Détails de localisation" /></div>
-      <div class="picture"><img src="../assets/media/image/Capture d'écran 2026-02-17 172118.png"
-          alt="Capture d'écran du projet Borne d'orientation - Carte interactive" /></div>
-      <div class="picture"><img src="../assets/media/image/Capture d'écran 2026-02-10 152611.png"
-          alt="Capture d'écran du projet Borne d'orientation" /></div>
+    <div class="container-scroll-bts">
+      <div class="picture"><img src="../assets/media/image/Borne_Orientation/Accueil.png"
+          alt="Page d'accueil de la borne d'orientation" /></div>
+      <div class="picture"><img src="../assets/media/image/Borne_Orientation/BTS.png"
+          alt="Page affichant les différents BTS" /></div>
+      <div class="picture"><img src="../assets/media/image/Borne_Orientation/Contact_BTS.png"
+          alt="Page de contact des différents BTS et les moyens de contact" /></div>
+      <div class="picture"><img src="../assets/media/image/Borne_Orientation/QR_Code.png"
+          alt="QR-Code menant au BTS choisi" /></div>
+      <div class="picture"><img src="../assets/media/image/Borne_Orientation/Chemin.png"
+          alt="Page de cheminement de la borne d'orientation" /></div>
+      <div class="picture"><img src="../assets/media/image/Borne_Orientation/Fin_Chemin.png"
+          alt="Page de fin de cheminement de la borne d'orientation" /></div>
+      <div class="picture"><img src="../assets/media/image/Borne_Orientation/Contact.png"
+          alt="Page de contact de la borne d'orientation" /></div>
+      <div class="picture"><img src="../assets/media/image/Borne_Orientation/Merci.png"
+          alt="Page de remerciement de la borne d'orientation" /></div>
     </div>
   </div>
 
@@ -66,7 +80,8 @@
       Dans le cadre de ma formation <span>POEI (Préparation Opérationnelle à l'Emploi Individuelle)
         spécialisée en
         Front-End</span>,
-      j'ai co-développé une application web dynamique dédiée à l'univers de la cuisine. Ce projet avait pour objectif
+      j'ai co-développé une application web dynamique dédiée à l'univers de la cuisine. Ce projet avait pour
+      objectif
       de
       créer une interface utilisateur fluide, intuitive et responsive, permettant aux utilisateurs de rechercher et
       de consulter des recettes de manière interactive.
@@ -84,26 +99,51 @@
         janvier 2026</span>.
       Ce calendrier serré nous a imposé une gestion de projet rigoureuse, nous apprenant à prioriser les
       fonctionnalités
-      essentielles (MVP) et à respecter des délais de livraison stricts, fidèles aux exigences du monde professionnel.
+      essentielles (MVP) et à respecter des délais de livraison stricts, fidèles aux exigences du monde
+      professionnel.
     </p>
 
     <p class="para-projet">
-      <em>Compétences clés mobilisées : Intégration de composants, gestion d'états dynamiques, travail en équipe agile
+      <em>Compétences clés mobilisées : Intégration de composants, gestion d'états dynamiques, travail en équipe
+        agile
         et respect des maquettes UI/UX.</em>
     </p>
     <a href="https://github.com/Chouppa/CooKing">Voir le projet</a>
   </section>
 
   <div class="gallerie">
-    <div class="container-scroll">
-      <div class="picture"><img src="../assets/media/image/Cooking/Accueil.png" alt="Page accueil du projet" /></div>
+    <div class="container-scroll-cooking">
+      <div class="picture"><img src="../assets/media/image/Cooking/Accueil.png" alt="Page accueil du projet" />
+      </div>
       <div class="picture"><img src="../assets/media/image/Cooking/Recherche.png"
           alt="Démonstration recherche de recettes culinaires" /></div>
       <div class="picture"><img src="../assets/media/image/Cooking/Categories.png"
           alt="Page categories de recettes culinaires" /></div>
-      <div class="picture"><img src="../assets/media/image/Cooking/Favories.png" alt="Page favories du projet" /></div>
-      <div class="picture"><img src="../assets/media/image/Cooking/About_Us.png" alt="Page à propos du projet" /></div>
+      <div class="picture"><img src="../assets/media/image/Cooking/Favories.png" alt="Page favories du projet" />
+      </div>
+      <div class="picture"><img src="../assets/media/image/Cooking/About_Us.png" alt="Page à propos du projet" />
+      </div>
+
+      <div class="picture"><img src="../assets/media/image/Cooking/Accueil.png" alt="Page accueil du projet" />
+      </div>
+      <div class="picture"><img src="../assets/media/image/Cooking/Recherche.png"
+          alt="Démonstration recherche de recettes culinaires" /></div>
+      <div class="picture"><img src="../assets/media/image/Cooking/Categories.png"
+          alt="Page categories de recettes culinaires" /></div>
+      <div class="picture"><img src="../assets/media/image/Cooking/Favories.png" alt="Page favories du projet" />
+      </div>
+      <div class="picture"><img src="../assets/media/image/Cooking/About_Us.png" alt="Page à propos du projet" />
+      </div>
     </div>
+  </div>
+
+  <div>
+    <p>Des ajouts futurs seront mis en place au fil du temps. En voici la liste :</p>
+    <ul>
+      <li>Recherche avancées</li>
+      <li>Afficher les différentes catégories</li>
+      <li>Ajout de favoris</li>
+    </ul>
   </div>
 
   <footer>
@@ -190,10 +230,17 @@
   mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
 }
 
-.container-scroll {
+.container-scroll-bts {
   display: flex;
   gap: 20px;
-  animation: scroll-auto 50s linear infinite;
+  animation: scroll-auto 20s linear infinite;
+  width: max-content;
+}
+
+.container-scroll-cooking {
+  display: flex;
+  gap: 20px;
+  animation: scroll-auto 20s linear infinite;
   width: max-content;
 }
 
@@ -203,7 +250,7 @@
   }
 
   100% {
-    transform: translateX(-50%);
+    transform: translateX(-100%);
   }
 }
 
@@ -216,7 +263,8 @@
   flex-shrink: 0;
 }
 
-.gallerie:hover .container-scroll {
+.gallerie:hover .container-scroll-bts,
+.gallerie:hover .container-scroll-cooking {
   animation-play-state: paused;
 }
 </style>
