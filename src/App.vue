@@ -4,7 +4,7 @@ import HelloWorld from './components/HelloWorld.vue'
 </script>
 <!--
   Idées :
-  Faire l'envoi des mails et testé (Contact.vue)
+  Faire l'envoi des mails et testé. (Contact.vue)
 -->
 <template>
   <header>
