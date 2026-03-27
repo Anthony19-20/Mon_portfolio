@@ -10,7 +10,7 @@ import ToolingIcon from './icons/IconTooling.vue';
     <ul>
       <p class="sommaire base">Informatique :</p>
       <p class="sommaire">Présentation :</p>
-      <li><a href="#profil_info">Profil informatique</a></li>
+      <li><a href="#profil_informatique">Profil informatique</a></li>
       <p class="sommaire">Compétences :</p>
       <li><a href="#profil_technique_informatique">Profil technique informatique</a></li>
       <li><a href="#outils_methodologies_informatique">Outils & Méthodologies informatique</a></li>
@@ -29,7 +29,7 @@ import ToolingIcon from './icons/IconTooling.vue';
       <DocumentationIcon />
     </template>
     <template #heading>Présentation informatique :</template>
-    <h3 class="h3-welcome" id="profil_info">Profil informatique :</h3>
+    <h3 class="h3-welcome" id="profil_informatique">Profil informatique :</h3>
     <p>Développeur web passionné, je me consacre à la création d'applications et d'interfaces numériques modernes. Après
       avoir consolidé mes bases techniques, notamment lors de ma formation chez <span>Dawan</span>, je suis aujourd'hui
       <span>à la

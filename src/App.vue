@@ -4,7 +4,6 @@ import HelloWorld from './components/HelloWorld.vue'
 </script>
 <!--
   Idées :
-  - Changer CV et lettre (Info et Vente)
   - Faire sur téléphone
 -->
 <template>
