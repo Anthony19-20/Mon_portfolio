@@ -4,7 +4,10 @@ import HelloWorld from './components/HelloWorld.vue'
 </script>
 <!--
   Idées :
-  Faire l'envoi des mails et testé. (Contact.vue)
+  - Changer CV et lettre (Info et Vente)
+  - Présentation (Info et Vente)
+    - Faire deux profils et un sommaire
+  - Faire sur téléphone
 -->
 <template>
   <header>

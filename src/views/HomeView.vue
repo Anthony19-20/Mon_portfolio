@@ -7,6 +7,7 @@ import TheWelcome from '../components/TheWelcome.vue'
     <h1>Accueil</h1>
     <h2 class="h2-home">Bonjour, je suis <span class="span-home">Tony Barelli</span></h2>
     <h3 class="h3-home">Développeur Web Full Stack Junior</h3>
+    <!-- Modifier le titre -->
     <TheWelcome />
   </main>
 

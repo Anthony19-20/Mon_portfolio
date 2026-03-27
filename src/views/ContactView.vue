@@ -1,35 +1,15 @@
-<script setup>
-import { ref } from 'vue';
-
-const email = ref('');
-const object = ref('');
-const message = ref('');
-
-const sendForm = () => {
-    console.log("Email:", email.value);
-    console.log("Objet:", object.value);
-    console.log("Message:", message.value);
-
-    // Changer le code pour que le mail qui envoi soit le mail de l'utilisateur et pas le mien
-    // const mailtoLink = `mailto:barellitony13@gmail.com?subject=${encodeURIComponent(object.value)}&body=${encodeURIComponent(message.value)}`
-    // window.location.href = mailtoLink
-};
-</script>
+<script setup></script>
 
 <template>
     <main>
         <h1>Contact</h1>
 
-        <form @submit.prevent="sendForm" class="form-contact">
+        <form action="https://formsubmit.co/barellitony13@gmail.com" method="POST" class="form-contact">
             <label for="email" class="label-contact">E-mail</label>
-            <input v-model="email" type="email" id="email" placeholder="test@gmail.com" required
+            <input type="email" name="email" v-model="email" required placeholder="test@gmail.com"
                 class="input-contact" />
-
-            <label for="object" class="label-contact">Objet</label>
-            <input v-model="object" type="text" id="object" placeholder="Demande de contact" class="input-contact" />
-
             <label for="message" class="label-contact">Message</label>
-            <textarea v-model="message" id="message" cols="30" rows="10" placeholder="Votre message..."
+            <textarea name="message" v-model="message" cols="30" rows="10" placeholder="Votre message..."
                 class="textarea-contact"></textarea>
 
             <button type="submit" class="button-contact">Envoyer</button>
