@@ -6,7 +6,8 @@ import TheWelcome from '../components/TheWelcome.vue'
   <main>
     <h1>Accueil</h1>
     <h2 class="h2-home">Bonjour, je suis <span class="span-home">Tony Barelli</span></h2>
-    <h3 class="h3-home">Développeur Web Junior / Conseiller de vente</h3>
+    <h3 class="h3-home">Conseiller de Vente & Développeur Web Junior</h3>
+    <h4 class="h4-home">L'alliance de l'expertise technique et du sens de la relation client.</h4>
     <TheWelcome />
   </main>
 
@@ -72,7 +73,8 @@ import TheWelcome from '../components/TheWelcome.vue'
 @import '../assets/style/style.css';
 
 .h2-home,
-.h3-home {
+.h3-home,
+.h4-home {
   text-align: center;
 }
 

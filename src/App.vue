@@ -40,11 +40,7 @@ nav {
 }
 
 nav a.router-link-exact-active {
-  color: var(--color-text);
-}
-
-nav a.router-link-exact-active:hover {
-  background-color: transparent;
+  color: #f89c6e;
 }
 
 nav a {

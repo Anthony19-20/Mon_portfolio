@@ -105,30 +105,30 @@
 
 .input-contact {
     padding: 0.5rem;
-    border: 1px solid var(--color-border);
+    border: 1px solid black;
     border-radius: 4px;
     margin-top: 10px;
     text-align: center;
-    background-color: #abaaaa;
+    background-color: #4a4e69;
 }
 
 .textarea-contact {
     padding: 0.5rem;
-    border: 1px solid var(--color-border);
+    border: 1px solid black;
     border-radius: 4px;
     margin-top: 10px;
     text-align: center;
-    background-color: #abaaaa;
+    background-color: #4a4e69;
 }
 
 .button-contact {
     padding: 0.5rem 1rem;
-    border: 1px solid #abaaaa;
+    border: 1px solid #1b263b;
     border-radius: 4px;
-    background-color: var(--color-primary);
-    background-color: #abaaaa;
+    background-color: #1b263b;
     cursor: pointer;
     margin-top: 20px;
+    color: #ff4545;
 }
 
 .infos-contact {
