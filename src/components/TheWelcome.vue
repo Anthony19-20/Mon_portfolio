@@ -152,4 +152,20 @@ import ToolingIcon from './icons/IconTooling.vue';
 .base {
   text-decoration: underline;
 }
+
+@media (max-width: 600px) {
+  nav ul {
+    padding-left: 0;
+    list-style: none;
+  }
+
+  nav li {
+    margin-bottom: 8px;
+  }
+
+  .sommaire.base {
+    margin-top: 2rem;
+    font-size: 1.2rem;
+  }
+}
 </style>

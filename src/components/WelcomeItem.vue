@@ -83,4 +83,22 @@ h3 {
     display: none;
   }
 }
+
+@media (max-width: 600px) {
+  .item {
+    flex-direction: column;
+    /* Icône au dessus du titre */
+    align-items: flex-start;
+    margin-top: 1.5rem;
+  }
+
+  .details {
+    margin-left: 0;
+    margin-top: 0.5rem;
+  }
+
+  i {
+    margin-bottom: 0.5rem;
+  }
+}
 </style>

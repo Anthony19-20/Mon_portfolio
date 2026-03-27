@@ -87,4 +87,26 @@ import TheWelcome from '../components/TheWelcome.vue'
   font-weight: bold;
   font-size: 2rem;
 }
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+
+  .h2-home {
+    font-size: 1.4rem;
+    text-align: center;
+  }
+
+  .h3-home {
+    font-size: 1.1rem;
+    text-align: center;
+  }
+
+  .h4-home {
+    font-size: 0.9rem;
+    padding: 0 10px;
+  }
+}
 </style>

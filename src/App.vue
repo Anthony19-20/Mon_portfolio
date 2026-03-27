@@ -4,7 +4,7 @@ import HelloWorld from './components/HelloWorld.vue'
 </script>
 <!--
   Idées :
-  - Faire sur téléphone
+  - Mettre une flèche pour remonter
 -->
 <template>
   <header>
@@ -73,5 +73,55 @@ nav a:first-of-type {
   transform: scale(2.5) translate(-10px, 20px);
   box-shadow: 0 10px 20px #42b883;
   z-index: 10;
+}
+
+@media (max-width: 600px) {
+  header {
+    display: block;
+  }
+
+  .photo {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .img_moi {
+    width: 150px;
+    margin-top: 1rem;
+  }
+
+  .img_moi:hover {
+    transform: scale(1.5) translate(0, 0);
+  }
+
+  .wrapper {
+    width: 100%;
+  }
+
+  nav {
+    display: flex !important;
+    flex-direction: column !important;
+    margin-top: 2rem;
+    width: 100%;
+    padding: 0;
+  }
+
+  nav a {
+    display: block !important;
+    width: 100%;
+    padding: 12px 0 !important;
+    border-left: none !important;
+    border-bottom: 1px solid var(--color-border) !important;
+    margin: 0;
+  }
+
+  nav a:first-of-type {
+    border-left: none !important;
+  }
+
+  nav a:last-of-type {
+    border-bottom: none !important;
+  }
 }
 </style>
