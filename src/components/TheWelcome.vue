@@ -5,12 +5,31 @@ import ToolingIcon from './icons/IconTooling.vue';
 </script>
 
 <template>
+  <nav>
+    <p class="sommaire">Sommaire :</p>
+    <ul>
+      <p class="sommaire base">Informatique :</p>
+      <p class="sommaire">Présentation :</p>
+      <li><a href="#profil_info">Profil informatique</a></li>
+      <p class="sommaire">Compétences :</p>
+      <li><a href="#profil_technique_informatique">Profil technique informatique</a></li>
+      <li><a href="#outils_methodologies_informatique">Outils & Méthodologies informatique</a></li>
+      <li><a href="#ouverture_polyvalence_informatique">Ouverture & Polyvalence informatique</a></li>
+      <p class="sommaire base">Vente :</p>
+      <p class="sommaire">Présentation :</p>
+      <li><a href="#profil_vente">Profil vente</a></li>
+      <p class="sommaire">Compétences :</p>
+      <li><a href="#profil_technique_vente">Profil technique vente</a></li>
+      <li><a href="#outils_methodologies_vente">Outils & Méthodologies vente</a></li>
+      <li><a href="#ouverture_polyvalence_vente">Ouverture & Polyvalence vente</a></li>
+    </ul>
+  </nav>
   <WelcomeItem>
     <template #icon>
       <DocumentationIcon />
     </template>
-    <template #heading>Présentation :</template>
-    <h3 class="h3-welcome">Profil informatique :</h3>
+    <template #heading>Présentation informatique :</template>
+    <h3 class="h3-welcome" id="profil_info">Profil informatique :</h3>
     <p>Développeur web passionné, je me consacre à la création d'applications et d'interfaces numériques modernes. Après
       avoir consolidé mes bases techniques, notamment lors de ma formation chez <span>Dawan</span>, je suis aujourd'hui
       <span>à la
@@ -21,7 +40,45 @@ import ToolingIcon from './icons/IconTooling.vue';
       service
       d'une équipe dynamique. Rigoureux et curieux, je suis prêt à m'investir pleinement dans de nouveaux défis pour
       contribuer à la réussite de vos projets numériques.</p>
-    <h3 class="h3-welcome">Profil Vente :</h3>
+  </WelcomeItem>
+
+  <WelcomeItem>
+    <template #icon>
+      <ToolingIcon />
+    </template>
+    <template #heading>Compétences informatique :</template>
+    <h3 class="h3-welcome" id="profil_technique_informatique">Mon profil technique informatique : </h3>
+    <p>Passionné par le développement, je maîtrise les fondamentaux du web (<span>HTML, CSS, JavaScript ES6+</span>) et
+      les
+      frameworks
+      modernes comme <span>Vue.js</span> et <span>React.js</span>. Polyvalent, je développe également des solutions
+      backend en <span>PHP</span>, <span>Python</span> et
+      <span>Node.js</span>, avec une gestion rigoureuse des bases de données <span>MySQL</span>.
+    </p>
+
+    <h3 class="h3-welcome" id="outils_methodologies_informatique">Outils & Méthodologies informatique :</h3>
+    <p>Mon flux de travail repose sur des outils standards comme <span>Git, VS Code</span> et des environnements
+      <span>Linux</span>. J’accorde une
+      importance majeure à la qualité du code via le <span>UI Design, l’Accessibilité</span> et le respect du
+      <span>RGPD</span>. Habitué aux
+      méthodes agiles (<span>Scrum</span>), je sais m'adapter rapidement aux besoins d'une équipe.
+    </p>
+
+    <h3 class="h3-welcome" id="ouverture_polyvalence_informatique">Ouverture & Polyvalence informatique :</h3>
+    <p>Ma formation en <span>BTS CIEL</span> m'a également permis d'acquérir des compétences en programmation bas niveau
+      (<span>C/C++</span>) et
+      en
+      électronique (<span>Arduino</span>). Cette double culture logicielle et matérielle me permet d'aborder des projets
+      techniques
+      variés avec une grande autonomie.</p>
+  </WelcomeItem>
+
+  <WelcomeItem>
+    <template #icon>
+      <DocumentationIcon />
+    </template>
+    <template #heading>Présentation vente :</template>
+    <h3 class="h3-welcome" id="profil_vente">Profil Vente :</h3>
     <p>Conseiller de vente dynamique, j'ai consolidé mon sens du service client et ma maîtrise des techniques de vente
       lors
       de mon expérience à la <span>Fnac</span>. Capable de gérer en autonomie le flux client, l'encaissement et le
@@ -38,20 +95,13 @@ import ToolingIcon from './icons/IconTooling.vue';
       pour booster les performances de votre équipe de vente.</p>
   </WelcomeItem>
 
+
   <WelcomeItem>
     <template #icon>
       <ToolingIcon />
     </template>
-    <template #heading>Compétences :</template>
-    <h3 class="h3-welcome">Mon profil technique informatique : </h3>
-    <p>Passionné par le développement, je maîtrise les fondamentaux du web (<span>HTML, CSS, JavaScript ES6+</span>) et
-      les
-      frameworks
-      modernes comme <span>Vue.js</span> et <span>React.js</span>. Polyvalent, je développe également des solutions
-      backend en <span>PHP</span>, <span>Python</span> et
-      <span>Node.js</span>, avec une gestion rigoureuse des bases de données <span>MySQL</span>.
-    </p>
-    <h3 class="h3-welcome">Mon profil technique vente : </h3>
+    <template #heading>Compétences vente :</template>
+    <h3 class="h3-welcome" id="profil_technique_vente">Mon profil technique vente : </h3>
     <p>
       Conseiller de vente spécialisé en multimédia, j'ai développé une solide expertise en <span>relation client</span>
       et
@@ -62,14 +112,7 @@ import ToolingIcon from './icons/IconTooling.vue';
       spécifications complexes en bénéfices concrets pour l'utilisateur final.
     </p>
 
-    <h3 class="h3-welcome">Outils & Méthodologies informatique :</h3>
-    <p>Mon flux de travail repose sur des outils standards comme <span>Git, VS Code</span> et des environnements
-      <span>Linux</span>. J’accorde une
-      importance majeure à la qualité du code via le <span>UI Design, l’Accessibilité</span> et le respect du
-      <span>RGPD</span>. Habitué aux
-      méthodes agiles (<span>Scrum</span>), je sais m'adapter rapidement aux besoins d'une équipe.
-    </p>
-    <h3 class="h3-welcome">Outils & Méthodologies vente :</h3>
+    <h3 class="h3-welcome" id="outils_methodologies_vente">Outils & Méthodologies vente :</h3>
     <p>
       Ma méthodologie de travail repose sur l'utilisation d'outils de <span>diagnostic matériel</span> et de
       <span>configuration logicielle</span> pour offrir des solutions clés en main aux clients.
@@ -81,14 +124,7 @@ import ToolingIcon from './icons/IconTooling.vue';
         performance</span>.
     </p>
 
-    <h3 class="h3-welcome">Ouverture & Polyvalence informatique :</h3>
-    <p>Ma formation en <span>BTS CIEL</span> m'a également permis d'acquérir des compétences en programmation bas niveau
-      (<span>C/C++</span>) et
-      en
-      électronique (<span>Arduino</span>). Cette double culture logicielle et matérielle me permet d'aborder des projets
-      techniques
-      variés avec une grande autonomie.</p>
-    <h3 class="h3-welcome">Ouverture & Polyvalence vente :</h3>
+    <h3 class="h3-welcome" id="ouverture_polyvalence_vente">Ouverture & Polyvalence vente :</h3>
     <p>
       Ma formation en <span>BTS CIEL</span> m'a permis d'acquérir une double culture logicielle et matérielle,
       maîtrisant
@@ -105,6 +141,15 @@ import ToolingIcon from './icons/IconTooling.vue';
 .h3-welcome {
   margin-top: 1rem;
   font-weight: bold;
+  text-decoration: underline;
+}
+
+.sommaire {
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+.base {
   text-decoration: underline;
 }
 </style>
