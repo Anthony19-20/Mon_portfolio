@@ -2,10 +2,7 @@
 import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
 </script>
-<!--
-  Idées :
-  - Mettre une flèche pour remonter
--->
+
 <template>
   <header id="top">
     <div class="wrapper">
