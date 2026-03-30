@@ -7,7 +7,7 @@ import HelloWorld from './components/HelloWorld.vue'
   - Mettre une flèche pour remonter
 -->
 <template>
-  <header>
+  <header id="top">
     <div class="wrapper">
       <div class="photo">
         <HelloWorld msg="Bienvenue sur mon portfolio" />
@@ -24,6 +24,7 @@ import HelloWorld from './components/HelloWorld.vue'
   </header>
 
   <RouterView />
+  <a href="#top"><img src="./assets/media/image/top_arrow.png" alt="flèche haut" class="top_arrow"></a>
 </template>
 
 <style scoped>
@@ -73,6 +74,18 @@ nav a:first-of-type {
   transform: scale(2.5) translate(-10px, 20px);
   box-shadow: 0 10px 20px #42b883;
   z-index: 10;
+}
+
+.top_arrow {
+  width: 40px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  cursor: pointer;
+  background-color: lightgrey;
+  border-radius: 50%;
+  padding: 10px;
+  z-index: 1;
 }
 
 @media (max-width: 600px) {
