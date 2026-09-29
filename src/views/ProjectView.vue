@@ -32,7 +32,7 @@
     <a href="https://github.com/Alex-Nguyen39/Projet_Borne_Orientation_E6_TEMA">Voir le projet</a>
   </section>
 
-  <div class="gallerie">
+  <!-- <div class="gallerie">
     <div class="container-scroll-bts">
       <div class="picture"><img src="../assets/media/image/Borne_Orientation/Accueil.png"
           alt="Page d'accueil de la borne d'orientation" /></div>
@@ -70,7 +70,7 @@
       <div class="picture"><img src="../assets/media/image/Borne_Orientation/Merci.png"
           alt="Page de remerciement de la borne d'orientation" /></div>
     </div>
-  </div>
+  </div> -->
 
   <div class="liste">
     <p>Certaines des fonctionnalités ne sont pas affichés dans le défilement d'image. En voici la liste :</p>
@@ -119,7 +119,7 @@
     <a href="https://github.com/Chouppa/CooKing">Voir le projet</a>
   </section>
 
-  <div class="gallerie">
+  <!-- <div class="gallerie">
     <div class="container-scroll-cooking">
       <div class="picture"><img src="../assets/media/image/Cooking/Accueil.png" alt="Page accueil du projet" />
       </div>
@@ -143,7 +143,7 @@
       <div class="picture"><img src="../assets/media/image/Cooking/About_Us.png" alt="Page à propos du projet" />
       </div>
     </div>
-  </div>
+  </div> -->
 
   <div class="liste">
     <p>Des ajouts futurs seront mis en place au fil du temps. En voici la liste :</p>
