@@ -6,8 +6,9 @@ import TheWelcome from '../components/TheWelcome.vue'
   <main>
     <h1>Accueil</h1>
     <h2 class="h2-home">Bonjour, je suis <span class="span-home">Tony Barelli</span></h2>
-    <h3 class="h3-home">Conseiller de Vente & Développeur Web Junior</h3>
-    <h4 class="h4-home">L'alliance de l'expertise technique et du sens de la relation client.</h4>
+    <h2 class="h3-home"><u>Profil Numérique & Relation Client :</u></h2>
+    <h3 class="h3-home">• Technicien IT / Support / Réseaux</h3>
+    <h3 class="h3-home">• Conseiller de Vente & Employé Polyvalent</h3>
     <TheWelcome />
   </main>
 

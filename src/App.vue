@@ -8,20 +8,20 @@ import HelloWorld from './components/HelloWorld.vue'
     <div class="wrapper">
       <div class="photo">
         <HelloWorld msg="Bienvenue sur mon portfolio" />
-        <img src="./assets/media/image/Tête_Tony_Barelli.jpg" alt="Tête de Tony Barelli" class="img_moi">
+        <img src="./assets/media/image/Tête_Moi.jpg" alt="Tête de Tony Barelli" class="img_moi">
       </div>
 
       <nav>
         <RouterLink to="/">Accueil</RouterLink>
         <RouterLink to="/CV_Letter">CV & Lettre de Motivation</RouterLink>
-        <RouterLink to="/projects">Projets</RouterLink>
+        <!-- <RouterLink to="/projects">Projets</RouterLink> -->
         <RouterLink to="/contact">Contact</RouterLink>
       </nav>
     </div>
   </header>
 
   <RouterView />
-  <a href="#top"><img src="./assets/media/image/top_arrow.png" alt="flèche haut" class="top_arrow"></a>
+  <a href="#top"><img src="./assets/media/image/flèche_haut.png" alt="flèche haut" class="top_arrow"></a>
 </template>
 
 <style scoped>

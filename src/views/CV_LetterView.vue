@@ -13,37 +13,37 @@
 
     <h1 class="h1" id="cv_informatique">Mon CV Informatique</h1>
     <div class="mobile-download">
-        <a href="/Informatique_CV_Tony_Barelli.pdf" target="_blank" class="btn-view">
+        <a href="/CV Tony Barelli - Maintenance Informatique & Réseau.pdf" target="_blank" class="btn-view">
             📄 Voir le CV Informatique
         </a>
     </div>
-    <iframe src="/Informatique_CV_Tony_Barelli.pdf" title="CV Informatique" width="100%" height="600px"
+    <iframe src="/CV Tony Barelli - Maintenance Informatique & Réseau.pdf" title="CV Informatique" width="100%" height="600px"
         class="desktop-pdf"></iframe>
 
     <h1 class="h1" id="lettre_motivation_informatique">Ma lettre de motivation informatique</h1>
     <div class="mobile-download">
-        <a href="/Informatique_Lettre_Motivation_Tony_Barelli.pdf" target="_blank" class="btn-view">
+        <a href="/Lettre de Motivation - Maintenance Informatique & Réseau - Tony Barelli.pdf" target="_blank" class="btn-view">
             ✉️ Voir la Lettre Informatique
         </a>
     </div>
-    <iframe src="/Informatique_Lettre_Motivation_Tony_Barelli.pdf" title="Lettre Informatique" width="100%"
+    <iframe src="/Lettre de Motivation - Maintenance Informatique & Réseau - Tony Barelli.pdf" title="Lettre Informatique" width="100%"
         height="600px" class="desktop-pdf"></iframe>
 
     <h1 class="h1" id="cv_vente">Mon CV vente</h1>
     <div class="mobile-download">
-        <a href="/Vente_CV_Tony_Barelli.pdf" target="_blank" class="btn-view">
+        <a href="/CV Tony Barelli - Vente & Caisse.pdf" target="_blank" class="btn-view">
             📄 Voir le CV Vente
         </a>
     </div>
-    <iframe src="/Vente_CV_Tony_Barelli.pdf" title="CV Vente" width="100%" height="600px" class="desktop-pdf"></iframe>
+    <iframe src="/CV Tony Barelli - Vente & Caisse.pdf" title="CV Vente" width="100%" height="600px" class="desktop-pdf"></iframe>
 
     <h1 class="h1" id="lettre_motivation_vente">Ma lettre de motivation vente</h1>
     <div class="mobile-download">
-        <a href="/Vente_Lettre_Motivation_Tony_Barelli.pdf" target="_blank" class="btn-view">
+        <a href="/Lettre de Motivation - Vente & Caisse - Tony Barelli.pdf" target="_blank" class="btn-view">
             ✉️ Voir la Lettre Vente
         </a>
     </div>
-    <iframe src="/Vente_Lettre_Motivation_Tony_Barelli.pdf" title="Lettre Vente" width="100%" height="600px"
+    <iframe src="/Lettre de Motivation - Vente & Caisse - Tony Barelli.pdf" title="Lettre Vente" width="100%" height="600px"
         class="desktop-pdf"></iframe>
 </template>
 

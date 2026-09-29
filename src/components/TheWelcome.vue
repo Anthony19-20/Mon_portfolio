@@ -30,16 +30,13 @@ import ToolingIcon from './icons/IconTooling.vue';
     </template>
     <template #heading>Présentation informatique :</template>
     <h3 class="h3-welcome" id="profil_informatique">Profil informatique :</h3>
-    <p>Développeur web passionné, je me consacre à la création d'applications et d'interfaces numériques modernes. Après
-      avoir consolidé mes bases techniques, notamment lors de ma formation chez <span>Dawan</span>, je suis aujourd'hui
-      <span>à la
-        recherche
-        d'une opportunité en emploi.</span>
+    <p><span>Passionné par les technologies et les infrastructures informatiques,</span> je me consacre à la gestion, la
+      maintenance et le support des systèmes et réseaux. Fort d'un <span>BTS CIEL (Cybersécurité)</span> et d'une solide
+      culture numérique, je maîtrise le diagnostic matériel, le déploiement de parc et la résolution d'incidents.
     </p><br>
-    <p>Mon objectif est de mettre ma polyvalence technique (Front-End et Back-End) et mon sens de l'organisation au
+    <p><span>Mon objectif :</span> mettre ma rigueur, mon sens du service client et mes compétences techniques au
       service
-      d'une équipe dynamique. Rigoureux et curieux, je suis prêt à m'investir pleinement dans de nouveaux défis pour
-      contribuer à la réussite de vos projets numériques.</p>
+      d'une équipe IT pour garantir la disponibilité et la sécurité de vos équipements.</p>
   </WelcomeItem>
 
   <WelcomeItem>
@@ -48,29 +45,29 @@ import ToolingIcon from './icons/IconTooling.vue';
     </template>
     <template #heading>Compétences informatique :</template>
     <h3 class="h3-welcome" id="profil_technique_informatique">Mon profil technique informatique : </h3>
-    <p>Passionné par le développement, je maîtrise les fondamentaux du web (<span>HTML, CSS, JavaScript ES6+</span>) et
-      les
-      frameworks
-      modernes comme <span>Vue.js</span> et <span>React.js</span>. Polyvalent, je développe également des solutions
-      backend en <span>PHP</span>, <span>Python</span> et
-      <span>Node.js</span>, avec une gestion rigoureuse des bases de données <span>MySQL</span>.
-    </p>
+    <p>Passionné par les infrastructures informatiques, je maîtrise le diagnostic matériel, le support utilisateur et la
+      gestion des réseaux <span>(TCP/IP, VLAN, pare-feu)</span>. Polyvalent, je gère la maintenance sous Windows et
+      Linux,
+      tout en
+      disposant de solides notions en scripting et développement web <span>(HTML, CSS, JS, Python)</span>.</p>
 
     <h3 class="h3-welcome" id="outils_methodologies_informatique">Outils & Méthodologies informatique :</h3>
-    <p>Mon flux de travail repose sur des outils standards comme <span>Git, VS Code</span> et des environnements
-      <span>Linux</span>. J’accorde une
-      importance majeure à la qualité du code via le <span>UI Design, l’Accessibilité</span> et le respect du
-      <span>RGPD</span>. Habitué aux
-      méthodes agiles (<span>Scrum</span>), je sais m'adapter rapidement aux besoins d'une équipe.
-    </p>
+    <p>Mon flux de travail s'appuie sur des outils de diagnostic, de virtualisation <span>(VMware, Cisco Packet
+        Tracer)</span> et des
+      environnements <span>Windows/Linux</span>. J'accorde une importance majeure à la rigueur des procédures, à la
+      gestion
+      méthodique
+      des incidents et au respect des normes de cybersécurité. Habitué au travail d'équipe, je sais m'adapter rapidement
+      aux consignes et aux besoins des utilisateurs.</p>
 
     <h3 class="h3-welcome" id="ouverture_polyvalence_informatique">Ouverture & Polyvalence informatique :</h3>
-    <p>Ma formation en <span>BTS CIEL</span> m'a également permis d'acquérir des compétences en programmation bas niveau
-      (<span>C/C++</span>) et
-      en
-      électronique (<span>Arduino</span>). Cette double culture logicielle et matérielle me permet d'aborder des projets
-      techniques
-      variés avec une grande autonomie.</p>
+    <p>Ma formation en BTS CIEL m'a doté d'une double compétence matérielle et logicielle, combinant la cybersécurité,
+      le
+      bas niveau <span>(C/C++, Arduino)</span> et le scripting <span>(Python, Shell)</span>. Cette culture technique
+      globale me permet de
+      comprendre
+      les équipements en profondeur, de diagnostiquer efficacement les pannes et d'aborder des environnements complexes
+      avec une grande autonomie.</p>
   </WelcomeItem>
 
   <WelcomeItem>
@@ -79,22 +76,20 @@ import ToolingIcon from './icons/IconTooling.vue';
     </template>
     <template #heading>Présentation vente :</template>
     <h3 class="h3-welcome" id="profil_vente">Profil Vente :</h3>
-    <p>Conseiller de vente dynamique, j'ai consolidé mon sens du service client et ma maîtrise des techniques de vente
-      lors
-      de mon expérience à la <span>Fnac</span>. Capable de gérer en autonomie le flux client, l'encaissement et le
-      diagnostic
-      technique,
-      je sais transformer une démonstration produit en une solution adaptée aux besoins du client.</p><br>
+    <p>Conseiller de vente dynamique, j'ai consolidé mon sens du service et ma maîtrise des techniques de vente lors de
+      mes expériences sur le terrain (notamment à la Fnac). Capable de gérer en autonomie <span> l'accueil,
+        l'orientation
+        client
+        et la tenue de rayon</span>, je sais transformer un conseil produit en une solution adaptée aux besoins de
+      chaque
+      usager.
+    </p><br>
 
-    <p>Fort d'un <span>BTS en
-        Cybersécurité et Réseaux</span>, j'allie cette aisance relationnelle à une réelle expertise informatique pour
-      conseiller
-      avec
-      précision sur le matériel et les logiciels. Rigoureux et mobile sur Marseille, je suis prêt à m'investir
-      pleinement
-      pour booster les performances de votre équipe de vente.</p>
+    <p>Fort d'un parcours en informatique et systèmes numériques, j'allie cette aisance relationnelle à une vraie
+      compréhension technique pour conseiller avec précision sur le matériel et les outils digitaux. <span>Rigoureux,
+        polyvalent
+        et mobile sur Marseille</span>, je suis prêt à m'investir pleinement au sein de votre équipe.</p>
   </WelcomeItem>
-
 
   <WelcomeItem>
     <template #icon>
@@ -102,37 +97,36 @@ import ToolingIcon from './icons/IconTooling.vue';
     </template>
     <template #heading>Compétences vente :</template>
     <h3 class="h3-welcome" id="profil_technique_vente">Mon profil technique vente : </h3>
-    <p>
-      Conseiller de vente spécialisé en multimédia, j'ai développé une solide expertise en <span>relation client</span>
-      et
-      en <span>diagnostic technique</span> lors de mon expérience à la <span>Fnac</span>.
-      Fort d'un <span>BTS Cybersécurité</span>, je maîtrise l'architecture des <span>ordinateurs</span>, des
-      <span>smartphones</span> et des systèmes <span>Windows/Linux</span> pour offrir un conseil sur-mesure.
-      Polyvalent et <span>ordonné</span>, je sais gérer le flux de visiteurs avec pédagogie, en traduisant des
-      spécifications complexes en bénéfices concrets pour l'utilisateur final.
+    <p>Conseiller de vente dynamique, j'ai développé une solide aisance dans la relation usager et l'orientation client
+      lors de mes expériences à la Fnac et en secteur associatif. Grâce à mon cursus en informatique (BTS CIEL), je
+      comprends en profondeur le <span>fonctionnement du matériel et des outils digitaux. Polyvalent et
+        méthodique</span>,
+      je sais
+      identifier précisément <span>les besoins du client, l'orienter avec pédagogie et assurer une tenue de rayon
+        rigoureuse.</span>
     </p>
 
     <h3 class="h3-welcome" id="outils_methodologies_vente">Outils & Méthodologies vente :</h3>
     <p>
-      Ma méthodologie de travail repose sur l'utilisation d'outils de <span>diagnostic matériel</span> et de
-      <span>configuration logicielle</span> pour offrir des solutions clés en main aux clients.
-      J'accorde une importance majeure à la protection des données via mes certifications <span>Cisco
-        Cybersécurité</span>
-      et au respect du <span>RGPD</span>, garantissant ainsi une relation de confiance.
-      Habitué à la <span>gestion de flux</span> et au <span>SAV</span>, je sais adapter mon discours technique pour
-      accompagner chaque utilisateur, de l'initiation sur <span>tablette</span> au conseil expert sur <span>PC haute
-        performance</span>.
+      Ma méthodologie repose sur une écoute active et méthodique pour offrir des conseils adaptés à chaque profil
+      d'utilisateur. Rigoureux sur la traçabilité et le respect de la confidentialité des données clients
+      <span>(sensibilisé
+        via
+        mes certifications Cisco Cybersécurité et le RGPD)</span>, je veille à instaurer une relation de confiance.
+      Habitué à la
+      gestion des flux en période d'affluence et au premier niveau de diagnostic SAV, je sais adapter mon discours pour
+      <span>rendre les technologies simples et accessibles.</span>
     </p>
 
     <h3 class="h3-welcome" id="ouverture_polyvalence_vente">Ouverture & Polyvalence vente :</h3>
     <p>
-      Ma formation en <span>BTS CIEL</span> m'a permis d'acquérir une double culture logicielle et matérielle,
-      maîtrisant
-      aussi bien l'électronique (<span>Arduino</span>) que la programmation (<span>C/C++</span>).
-      Cette expertise technique me donne une autonomie totale pour conseiller sur des produits complexes, du
-      <span>composant informatique</span> à l'<span>objet connecté</span>.
-      Polyvalent et curieux, je m'adapte rapidement à l'évolution des gammes de produits pour offrir aux clients une
-      assistance technique fiable et un accompagnement de <span>qualité</span>.
+      Grâce à mon cursus en informatique (BTS CIEL), je dispose d'<span>une excellente compréhension des nouvelles
+        technologies
+        et des équipements numériques</span>. Cette culture technique me permet de me familiariser très rapidement avec
+      de
+      nouvelles gammes de produits ou logiciels internes. <span>Curieux et polyvalent</span>, je m'adapte facilement aux
+      besoins du
+      terrain pour offrir aux clients un accompagnement fiable et de qualité.
     </p>
   </WelcomeItem>
 </template>
